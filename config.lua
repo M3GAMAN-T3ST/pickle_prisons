@@ -8,7 +8,7 @@ Config.RenderDistance = 20.0 -- Model Display Radius.
 
 Config.InteractDistance = 2.0 -- Interact Radius
 
-Config.UseTarget = false -- When set to true, it'll use targeting instead of key-presses to interact.
+Config.UseTarget = true -- When set to true, it'll use targeting instead of key-presses to interact.
 
 Config.NoModelTargeting = true -- When set to true and using Target, it'll spawn a small invisible prop so you can third-eye when no entity is defined.
 
@@ -25,7 +25,7 @@ Config.ServeTimeOffline = false -- When set to true, players can serve their tim
 
 Config.EnableSneakout = false -- When set to true, anytime the player is outside the prison without being part of a breakout, they are freed instead of being brought back.
 
-Config.XPEnabled = true -- When set to true, this will enable Pickle's XP compatibility, and enable xp rewards.
+Config.XPEnabled = false -- When set to true, this will enable Pickle's XP compatibility, and enable xp rewards.
 
 Config.XPCategories = { -- Registered XP Types for Pickle's XP.
     ["strength"] = {
